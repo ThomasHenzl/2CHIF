@@ -1,4 +1,4 @@
-import './styles.css';
+import './style.css';
 
 import { BouncingBallGame } from './game';
 
