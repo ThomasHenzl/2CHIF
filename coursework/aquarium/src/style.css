@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(1, 1, 86);
+  color: white;
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#aquarium {
+  background-image: url('../assets/background.png');
+  width: 800px;
+  aspect-ratio: 16/9;
+  background-size: cover;
+  border: 5px solid #ffffff;
+  position: relative;
+  overflow: hidden;
+}
+.fish{
+    position: absolute;
+}
